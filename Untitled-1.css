@@ -1,0 +1,134 @@
+body {}
+
+button {
+    border: 0px;
+    background-color: white;
+    width: 100px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    font-size: 18px;
+}
+
+#block1 {
+    position: relative;
+    display: inline-block;
+    background-color: aquamarine;
+    margin-left: 750px;
+    width: 50%;
+    height: 2550px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#about {
+    position: absolute;
+    top: 50px;
+    left: -700px;
+}
+
+#resume {
+    position: absolute;
+    top: 50px;
+    left: -600px;
+}
+
+#contact {
+    position: absolute;
+    top: 50px;
+    left: -500px;
+}
+
+#fa {
+    position: absolute;
+    top: 50px;
+    left: -400px;
+}
+
+#profile {
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    top: 100px;
+    left: 960px;
+    border-radius: 10px;
+    opacity: 100%;
+    background-attachment: fixed;
+}
+
+#name {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    text-align: left;
+}
+
+#about-p {
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    width: 300px;
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#resume-p {
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+    width: 300px;
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#contact-p {
+    position: absolute;
+    top: 1800px;
+    left: 200px;
+    width: 300px;
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#top {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(212, 255, 239);
+    /* Set a background color */
+    color: black;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#top:hover {
+    background-color: #555;
+    color: white;
+    /* Add a dark-grey background on hover */
+}
